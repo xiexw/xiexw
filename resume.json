@@ -1,0 +1,123 @@
+{
+    "titleNameMap": {
+        "educationList": "教育背景",
+        "workExpList": "工作经历",
+        "projectList": "项目经历",
+        "skillList": "个人技能",
+        "awardList": "更多信息",
+        "workList": "个人作品",
+        "aboutme": "自我介绍"
+    },
+    "avatar": {
+        "hidden": false
+    },
+    "profile": {
+        "name": "谢晓伟",
+        "email": "xxw0423@163.com",
+        "mobile": "15605885395",
+        "github": "",
+        "zhihu": "",
+        "workExpYear": "8.5年",
+        "workPlace": "浙江杭州",
+        "positionTitle": "高级软件工程师"
+    },
+    "educationList": [
+        {
+            "edu_time": "2007.09,2012.06",
+            "school": "北京航空航天大学",
+            "major": "计算机科学与技术",
+            "dataIndex": 0
+        }
+    ],
+    "awardList": [],
+    "workExpList": [
+        {
+            "company_name": "杭州时代银通软件股份有限公司",
+            "department_name": "公共技术部",
+            "work_time": "2016.03",
+            "work_desc": "高级软件工程师，负责公司基础框架组件、服务的维护及二次开发",
+            "dataIndex": 0
+        },
+        {
+            "company_name": "信雅达系统工程股份有限公司",
+            "department_name": "社保事业部",
+            "work_time": "2013.10,2015.03",
+            "work_desc": "软件工程师，负责公司社保和影响业务的订制开发及实施",
+            "dataIndex": 1
+        },
+        {
+            "company_name": "国家科技基础平台信息技术中心",
+            "department_name": "",
+            "work_time": "2012.07,2013.08",
+            "work_desc": "软件工程师，参与客户的门户网站的定制化开发及实施",
+            "dataIndex": 2
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": " ",
+            "skill_desc": "SSM，SpringBoot，SpringCloud，熟练使用，并了解部分原理",
+            "skill_level": null,
+            "dataIndex": 0
+        },
+        {
+            "skill_name": "",
+            "skill_level": null,
+            "dataIndex": 1,
+            "skill_desc": "Mysql，Oracle，熟练使用，有SQL语句调优经验"
+        },
+        {
+            "skill_name": "",
+            "skill_desc": "Git、Maven、Idea、Tomcat，熟练使用，熟悉Linux系统的常用开发命令",
+            "skill_level": null,
+            "dataIndex": 2
+        },
+        {
+            "skill_name": "",
+            "skill_desc": "丰富的组件维护、二次开发及问题排查经验",
+            "skill_level": null,
+            "dataIndex": 3
+        }
+    ],
+    "projectList": [
+        {
+            "project_name": "K线数据服务",
+            "project_role": "负责人",
+            "project_time": "",
+            "project_desc": "负责维护该公共服务，解决发现的问题，处理新的需求，并在公司的业务范围内做一定的优化",
+            "project_content":"该服务提供了一个外汇牌价到K线数据的转化和查询的功能，用于提供数据给前端来展示外汇的K线图",
+            "dataIndex": 0
+        },
+        {
+            "project_name": "公共技术框架项目",
+            "project_role": "主力研发",
+            "project_time": "",
+            "project_desc": "负责静态缓存和任务调度组件的维护和需求开发，并在公司的微服务升级开发过程中，独立负责这两个组件的升级",
+            "project_content": "该框架是公司各产品、项目组使用的底层基础框架，其中包含公司软件在发展过程中会使用到的一系列通用的功能、工具的实现，如db、缓存、远程调用、报文转换、服务编排、作业调度等",
+            "dataIndex": 1
+        },
+        {
+            "project_name": "静态数据服务",
+            "project_role": "负责人",
+            "project_time": "",
+            "project_desc": "负责解决各项目的系统使用过程中碰到的bug，处理新的需求，跟客户第三方系统对接，并对维护过程中发现的一些痛点，做一些探索、优化工作",
+            "project_content": "公司的金融业务中，有很多数据是静态的，变化很少的，互相之间有关联，并且系统中的大部分服务都使用到的，该服务是一个维护这类数据的公共服务。",
+            "dataIndex": 2
+        },
+        {
+            "project_name": "内部支撑-自动化构建方案设计及实现",
+            "project_role": "主力研发",
+            "project_desc": "负责以Maven为核心的持续化构建系统，在其中集成了公司的定制化要求，同时结合公司的Jenkins，探索自动化执行的方法，完成整个流程的研究，并输出文档交给内部运营部门去维护",
+            "project_content": "随着金融行业的监管加强，以及新的构建技术的成熟，公司内部的代码版本管理方式显得落后了，旧的Ant编译方式既复杂，也满足不了新的代码走查审核需求，因此在此基础上探索了以构建工具Maven及其提供的插件机制为核心的自动化构建、审核系统，用于管理公司大量软件的代码版本及构建产出文件。",
+            "dataIndex": 3
+        }
+    ],
+    "workList": [],
+    "aboutme": {
+        "aboutme_desc": "🌱成熟稳重，团队研发主力人员\n🌱有一定的钻研能力，新技能、新组建的探索者\n🌱良好的设计和编码品味，注重规范和文档\n🌱不错的沟通能力，负责任的团队合作意识\n    "
+    },
+    "theme": {
+        "color": "#2f5785",
+        "tagColor": "#8bc34a"
+    }
+}
